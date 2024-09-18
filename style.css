@@ -57,8 +57,7 @@ body {
     background-color: black;
     border: 20px solid black;
     display: flex;
-    flex-direction: row;
-    
+    flex-direction: row;   
 }
 
 .container2 {
@@ -83,9 +82,7 @@ body {
     background-color: rgb(46, 119, 208);
     padding: 10px;
     flex-basis: 40%;
-    margin-bottom: 20px;
-    
-    
+    margin-bottom: 20px;   
 }
 
 .a1 {
@@ -117,7 +114,6 @@ body {
     padding: 10px;
     flex-grow: 1;
     margin-bottom: 10px;
-    
 }
 
 .pie{
@@ -125,15 +121,21 @@ body {
     background-color: rgb(236, 234, 171);
     padding: 10px;
     flex-basis: 100%;
-
-
 }
 
 .flex-container3 {
     margin-top: 20px;
     background-color: black;
     border: 20px solid black;
+}
 
+.logo-animate{
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.logo-animate:hover {
+    background-color: rgb(255, 0, 191);
+    transform: scale(1.2);
 }
 
 
@@ -177,16 +179,14 @@ body {
         background-color: black;
         border: 20px solid black;
         display: flex;
-        flex-direction: column;
-        
+        flex-direction: column;   
     }
     
     .container2 {
         background-color: rgb(81, 100, 151);
         padding: 20px;
         display: flex;
-        flex-direction: row;
-       
+        flex-direction: row;   
     }
     
     .container3 {
@@ -197,7 +197,6 @@ body {
         flex-wrap: nowrap;
         border: none;
         border-top: 20px solid black;
-
     }
 
     .publicidad {
@@ -210,7 +209,14 @@ body {
         margin-bottom: 10px;
     }
 
-
+    .logo-animate{
+        transition: background-color 0.3s, transform 0.3s;
+    }
+    
+    .logo-animate:hover {
+        background-color: rgb(255, 0, 191);
+        transform: scale(1.064);
+    }
 
 }
 
@@ -230,21 +236,18 @@ body {
         justify-content: space-between;
     }
 
-    .logo{
-        
+    .logo{    
         background-color: rgb(253, 106, 80);
         padding: 10px;
     }
     
-    .nav{
-        
+    .nav{    
         background-color: rgb(253, 106, 80);
         padding: 10px;
         margin: 20px 0px;
     }
     
-    .social{
-        
+    .social{    
         background-color: rgb(253, 106, 80);
         padding: 10px;
     }
@@ -254,8 +257,7 @@ body {
         background-color: black;
         border: 20px solid black;
         display: flex;
-        flex-direction: column;
-        
+        flex-direction: column;    
     }
     
     .container2 {
@@ -263,7 +265,6 @@ body {
         padding: 20px;
         display: flex;
         flex-direction: column;
-
     }
 
     .a1, .a2, .a3, .a4 {
@@ -279,7 +280,6 @@ body {
         flex-wrap: nowrap;
         border: none;
         border-top: 20px solid black;
-
     }
 
     .publicidad {
@@ -290,5 +290,14 @@ body {
 
     .p1 {
         margin-bottom: 10px;
+    }
+
+    .logo-animate{
+        transition: background-color 0.3s, transform 0.3s;
+    }
+    
+    .logo-animate:hover {
+        background-color: rgb(255, 0, 191);
+        transform: scale(1.10);
     }
 }
