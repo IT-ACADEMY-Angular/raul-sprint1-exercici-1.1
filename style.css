@@ -1,0 +1,137 @@
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.flex-container {
+    background-color: black;
+    border: 20px solid black;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.container {
+    background-color: rgb(46, 70, 135);
+    padding: 20px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    flex-basis: 100%;
+}
+
+.logo{
+    
+    background-color: rgb(253, 106, 80);
+    padding: 10px;
+    flex-grow: 1;
+}
+
+.nav{
+    
+    background-color: rgb(253, 106, 80);
+    padding: 10px;
+    flex-grow: 5;
+    margin: 0px 20px;
+}
+
+.social{
+    
+    background-color: rgb(253, 106, 80);
+    padding: 10px;
+    flex-grow: 1;
+}
+
+.banner{
+    border: 20px solid rgb(232, 175, 18);
+    background-color: rgb(255, 247, 0);
+    padding: 10px;
+    flex-basis: 100%;
+    margin-top: 20px;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.flex-container2 {
+    margin-top: 20px;
+    background-color: black;
+    border: 20px solid black;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.container2 {
+    background-color: rgb(81, 100, 151);
+    padding: 20px;
+    display: flex;
+    flex-flow: row wrap;
+     justify-content: space-between;
+    flex-basis: 80%;
+}
+
+.container3 {
+    background-color: rgb(235, 92, 109);
+    padding: 20px;
+    display: flex;
+    flex-flow: row wrap;
+    border-left: 20px solid black;
+    align-content: flex-start;
+}
+
+.article {
+    background-color: rgb(46, 119, 208);
+    padding: 10px;
+    flex-basis: 40%;
+    margin-bottom: 20px;
+    
+    
+}
+
+.a1 {
+    flex-grow: 1;
+    margin-right: 20px;
+}
+
+.a2 {
+    flex-grow: 1;
+}
+
+.a3{
+    flex-grow: 1;
+    margin-right: 20px;
+}
+
+.a4 {
+    flex-grow: 1;
+}
+
+.navegacion {
+    background-color: rgb(108, 192, 211);
+    padding: 10px;
+    flex-basis: 100%;
+}
+
+.publicidad {
+    background-color: rgb(255, 247, 0);
+    padding: 10px;
+    flex-grow: 1;
+    margin-bottom: 10px;
+    
+}
+
+.pie{
+    
+    background-color: rgb(236, 234, 171);
+    padding: 10px;
+    flex-basis: 100%;
+
+
+}
+
+.flex-container3 {
+    margin-top: 20px;
+    background-color: black;
+    border: 20px solid black;
+
+}
